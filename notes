@@ -1,0 +1,7 @@
+to compile your contract npx hardhat compile
+The version to work with Web3Provider npm i ethers
+With the 6th version of ether use
+const provider = new ethers.BrowserProvider(ethereum);
+const signer = provider.getSigner();
+
+instead of const provider = new ethers.providers.Web3Provider(ethereum);
